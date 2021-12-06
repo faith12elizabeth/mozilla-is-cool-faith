@@ -15,8 +15,8 @@ myImage.onclick = function() {
     myImage.setAttribute("assets/firefox-icon.png");
   }
 };
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+let myButton = document.querySelector("button");
+let myHeading = document.querySelector("h1");
 function setUserName() {
   let myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
@@ -40,3 +40,4 @@ function setUserName() {
     myHeading.textContent = 'Mozilla is cool, ' + myName;
   }
 }
+
