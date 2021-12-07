@@ -4,10 +4,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'firefox-icon.png') {
-    myImage.setAttribute ('src','download.jpeg');
+  if(mySrc === 'https://cdn.glitch.me/b30c9a68-761a-4d57-a59b-3a0a7d76f50a%2Ffirefox-icon.png?1637566654977') {
+    myImage.setAttribute ('src','https://cdn.glitch.me/e9a7366c-efb4-4ea1-b562-5aca3fce89cb%2Fdownload.jpeg?1638788767948');
   } else {
-    myImage.setAttribute ('src','firefox-icon.png');
+    myImage.setAttribute ('src','https://cdn.glitch.me/b30c9a68-761a-4d57-a59b-3a0a7d76f50a%2Ffirefox-icon.png?1637566654977');
   }
 }
 
